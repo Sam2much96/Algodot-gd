@@ -1,0 +1,25 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="Algodot"
+config/description="Algorand SDK port for Godot 4 GDScript"
+run/main_scene="res://tests/test_ed25519.gd"
+config/features=PackedStringArray("4.5", "Forward Plus")
+config/icon="res://icon.svg"
+
+[debug]
+
+gdscript/warnings/unused_variable=0
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/algodot/plugin.cfg")

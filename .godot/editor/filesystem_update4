@@ -1,0 +1,5 @@
+res://main.tscn
+res://tests/test_ed25519.gd
+res://tests/test_algo_account.gd
+res://tests/test_transactions.gd
+res://tests/main.tscn
